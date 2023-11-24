@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "Session": "https://localhost:52092",
+    "Database": "Host=127.0.0.1;Port=5432;Database=predbet_db;Username=postgres;Password=D@@nn33ll123;Pooling=true;Maximum Pool Size=200;",
+    "SB": "https://www.sportybet.com",
+    "Data": "http://localhost:51334"
+  }
+}

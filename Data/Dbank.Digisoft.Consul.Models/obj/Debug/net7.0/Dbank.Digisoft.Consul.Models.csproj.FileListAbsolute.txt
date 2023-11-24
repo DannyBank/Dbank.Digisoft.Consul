@@ -1,0 +1,11 @@
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\bin\Debug\net7.0\Dbank.Digisoft.Consul.Models.deps.json
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\bin\Debug\net7.0\Dbank.Digisoft.Consul.Models.dll
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\bin\Debug\net7.0\Dbank.Digisoft.Consul.Models.pdb
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\Dbank.Digisoft.Consul.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\Dbank.Digisoft.Consul.Models.AssemblyInfoInputs.cache
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\Dbank.Digisoft.Consul.Models.AssemblyInfo.cs
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\Dbank.Digisoft.Consul.Models.csproj.CoreCompileInputs.cache
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\Dbank.Digisoft.Consul.Models.dll
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\refint\Dbank.Digisoft.Consul.Models.dll
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\Dbank.Digisoft.Consul.Models.pdb
+C:\MyStuff\PersonalProjects\asp\Ussd\Dbank.Digisoft.Consul\Data\Dbank.Digisoft.Consul.Models\obj\Debug\net7.0\ref\Dbank.Digisoft.Consul.Models.dll

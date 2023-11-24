@@ -1,0 +1,19 @@
+{
+  "Outputs": {
+    "WelcomeMessage": "Welcome to PrediBET",
+    "BookCodeEntryPrompt": "Enter Booking code from {BookerName}",
+    "NoPredictionsToday": "No predictions today, come back again soon",
+    "DisplayBookedSets": "Select Booking",
+    "InvalidBookingSelected": "Invalid booking selected",
+    "EnterAmount": "Enter amount",
+    "ProcessPaymentPrompt": "Payment is being processed, you will receive a prompt soon",
+    "InvalidPredictionSelected": "Invalid prediction selected",
+    "InvalidBookingCode": "Invalid Booking Code",
+    "ChangeBookingPrompt": "Select prediction for {match}",
+    "NoBookingsForCode": "No bookings available for code",
+    "ChangeBookingSuccessful": "You have updated your prediction set",
+    "SelectToUpdate": "Select Prediction to change",
+    "SelectToViewOrPay": "Select to view or pay",
+    "SelectYourBooker": "Select your market"
+  }
+}

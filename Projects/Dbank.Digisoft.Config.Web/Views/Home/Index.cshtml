@@ -1,0 +1,87 @@
+﻿@model IndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/codemirror.css">
+<link rel="stylesheet" href="~/css/mdn-like.min.css">
+<link rel="stylesheet" href="~/css/lint.css">
+<script src="~/js/codemirror.js"></script>
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">
+                            @{
+                                var splits = Model.Directory.Split("/");
+                                string? nextLink = null;
+                                string? last = null;
+                                foreach (var link in splits)
+                                {
+                                    if (string.IsNullOrEmpty(nextLink))
+                                        nextLink = link;
+                                    else
+                                        nextLink += "/" + link;
+                                    <a asp-action="Index" asp-route-dir="@nextLink">@link.Replace(".json", "") / </a>
+                                    last = link;
+                                }
+                            }
+                        </h6>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <tbody>
+                                @{
+                                    if (Model.IsFile)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="justify-content-center">
+                                                    <input type="hidden" id="key" value="@last" />
+                                                    <input type="hidden" id="path" value="@nextLink" />
+                                                    <textarea rows="10" spellcheck="false" class="codemirror-textarea">
+                                                        @Model.Output
+                                                    </textarea>
+                                                </div>
+                                                <hr/><br/>
+                                                <button id="validate" class="btn btn-primary">Save</button>
+                                                <button id="back" class="btn btn-success">Back</button>
+                                                <div id="error" class="text-black"></div>
+                                            </td>
+                                        </tr>
+                                    }
+                                    else
+                                    {
+                                        foreach (var app in Model.ViewList)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 py-1">
+                                                        <div>
+                                                            <img src="~/assets/img/team-2.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                                                        </div>
+                                                        <div class="d-flex flex-column justify-content-center">
+                                                            <h6 class="mb-0 text-sm">
+                                                                <a asp-action="Index" asp-route-dir="@app.Item2">@app.Item1</a>
+                                                            </h6>
+                                                            <p class="text-xs text-secondary mb-0"></p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

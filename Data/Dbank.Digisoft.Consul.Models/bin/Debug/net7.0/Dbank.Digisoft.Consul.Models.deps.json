@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Dbank.Digisoft.Consul.Models/1.0.0": {
+        "runtime": {
+          "Dbank.Digisoft.Consul.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dbank.Digisoft.Consul.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

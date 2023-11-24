@@ -1,0 +1,74 @@
+{
+  "MenuData": {
+    "StartMenu": [
+      {
+        "Text": "Predictions",
+        "Position": 1,
+        "Handler": "DisplayBookedSets",
+        "Active": true
+      },
+      {
+        "Text": "Enter book code",
+        "Position": 2,
+        "Handler": "DisplayBookers",
+        "Active": true
+      }
+    ],
+    "ViewPayMenu": [
+      {
+        "Text": "View",
+        "Position": 1,
+        "Handler": "DisplayBooking",
+        "Active": true
+      },
+      {
+        "Text": "Pay",
+        "Position": 2,
+        "Handler": "PaymentPrompt",
+        "Active": true
+      }
+    ],
+    "PredictionMenu": [
+      {
+        "Text": "Home-1",
+        "Position": 1,
+        "NextMenuType": "ViewPayMenu",
+        "Handler": "SelectPrediction",
+        "PredictionValue": "1",
+        "Active": true
+      },
+      {
+        "Text": "Away-2",
+        "Position": 2,
+        "NextMenuType": "ViewPayMenu",
+        "Handler": "SelectPrediction",
+        "PredictionValue": "2",
+        "Active": true
+      },
+      {
+        "Text": "Draw-X",
+        "Position": 3,
+        "NextMenuType": "ViewPayMenu",
+        "Handler": "SelectPrediction",
+        "PredictionValue": "X",
+        "Active": true
+      },
+      {
+        "Text": "Home/Draw-1X",
+        "Position": 4,
+        "NextMenuType": "ViewPayMenu",
+        "Handler": "SelectPrediction",
+        "PredictionValue": "1X",
+        "Active": true
+      },
+      {
+        "Text": "Away/Draw-2X",
+        "Position": 5,
+        "NextMenuType": "ViewPayMenu",
+        "Handler": "SelectPrediction",
+        "PredictionValue": "2X",
+        "Active": true
+      }
+    ]
+  }
+}

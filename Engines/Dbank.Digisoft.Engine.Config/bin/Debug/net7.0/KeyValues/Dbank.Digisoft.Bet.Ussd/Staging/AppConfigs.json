@@ -1,0 +1,28 @@
+{
+  "App": {
+    "AllowedSC": null,
+    "AllowProductExtenstion": true,
+    "AppCurrency": "USD",
+    "AppId": "BET",
+    "BackPageCharacter": "0",
+    "BarredNumbers": [],
+    "CanGotoPreviousMenu": true,
+    "CronSchedule": "2/3 * * * *",
+    "DirectDialEnable": true,
+    "ExtraDataSeparator": "~",
+    "IsTesting": true,
+    "MenuSeperator": ")",
+    "NextPageCharacter": "*",
+    "OffMenuDirectDialEnabled": true,
+    "Origin": "AMN",
+    "OriginType": "UGW",
+    "ShortCodes": [ "149", "941" ],
+    "SMSSender": "GreatIdeas",
+    "StagePageSizes": [
+      6
+    ],
+    "Testers": [
+      "233242783898"
+    ]
+  }
+}
